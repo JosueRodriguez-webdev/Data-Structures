@@ -16,7 +16,6 @@ class Node:
         self.next_node = new_next
 
 
-
 class LinkedList:
     def __init__(self):
         # reference to the head of the list
@@ -69,7 +68,7 @@ class LinkedList:
             self.tail = None
             return value
 
-        current = self.headß
+        current = self.head
 
         while current.get_next() is not self.tail:
             current = current.get_next()
